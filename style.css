@@ -1,0 +1,97 @@
+body{
+background-image: url(bg.webp);
+margin: 0px;
+height: 110vh;
+}
+header{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+.logobox
+{
+    display: inline-block;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight:bolder;
+}
+.navbox
+{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    width: 600px;
+   right: 20px;
+}
+.navbox a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+.navbox a:hover
+{
+    color: salmon;
+    transition: 0.5s;
+}
+#id
+{
+    color: salmon;
+}
+.heading
+{
+  
+    color: salmon;
+    position: relative;
+    width: 500px;
+    top: 50px;
+    padding-left: 50px;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subheadling
+{
+  
+    position: relative;
+   
+    color: seashell;
+    padding-left: 80px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text
+{
+    position: relative;
+   
+    width: 400px;
+    color: seashell;
+    padding-left: 80px;
+    word-spacing: 4px;
+    font-family:'Times New Roman', Times, serif;
+}
+.btn
+{
+    margin-left: 80px;
+    padding: 15px 25px;
+    background-color:salmon;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.9s;
+    
+}
+.btn:hover
+{
+    background-color: sandybrown;
+    color: white;
+    
+}
+footer
+{
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    font-family: 'Roboto';
+}
